@@ -1,0 +1,48 @@
+body{display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+#grid {
+    display: grid;
+    width: 1400px;
+    height: 600px;
+    grid-gap: 0;
+    margin: auto;
+    justify-content: stretch;
+    border: 1px solid black;
+}
+
+h1{
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: chocolate;
+    font-weight: 900;
+}
+
+span{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: forestgreen;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.active {
+    background-color: black;
+}
+
+button {
+    margin: 10px auto;
+    border: 1px solid rgb(206, 194, 194);
+    border-radius: 9px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(43, 85, 133);
+    color: blanchedalmond;
+}
